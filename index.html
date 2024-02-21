@@ -8,7 +8,7 @@
     <meta name="keywords" content="coffee, reservation, roastery, beans" />
     <meta name="author" content="Brandon Adam" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="../favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -103,6 +103,7 @@
                   class="form__input"
                   id="name"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label for="guests" class="form__label">
@@ -111,11 +112,17 @@
                   class="form__input"
                   id="guests"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <label for="date" class="form__label">
                 Date and time *
-                <input type="datetime-local" class="form__input" id="date" />
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="date"
+                  required
+                />
               </label>
               <label for="email" class="form__label">
                 Your email *
@@ -124,6 +131,7 @@
                   class="form__input"
                   id="email"
                   placeholder="email@email"
+                  required
                 />
               </label>
             </fieldset>
@@ -225,7 +233,7 @@
             </p>
           </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">
@@ -237,7 +245,7 @@
               alt="Triple Espresso Logo"
             />
           </div>
-          <div class="footer__content footer__column_content_social">
+          <div class="footer__content footer__content_type_social">
             <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">

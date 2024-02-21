@@ -11,7 +11,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -28,6 +28,7 @@
   display: flex;
   justify-content: center;
   border-radius: 2px;
+  margin-bottom: 0px;
 }
 
 .form__input {
@@ -46,6 +47,7 @@
   line-height: 30px;
   color: #838383;
   padding-right: 10px;
+  border-color: #838383;
 }
 
 .form__button {
@@ -54,7 +56,7 @@
   border: none;
   box-sizing: border-box;
   margin-bottom: 32px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -68,4 +70,5 @@
 .form__button:hover {
   opacity: 0.7;
   transition: opacity 0.3s ease;
+  cursor: pointer;
 }
