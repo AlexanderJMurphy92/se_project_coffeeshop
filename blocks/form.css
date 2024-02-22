@@ -40,7 +40,7 @@
   border-radius: 4px;
   height: 60px;
   padding-left: 20px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -48,6 +48,8 @@
   color: #838383;
   padding-right: 10px;
   border-color: #838383;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .form__button {
